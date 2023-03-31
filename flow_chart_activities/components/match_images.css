@@ -1,0 +1,38 @@
+#container {
+    display: flex;
+    flex-flow: row wrap;
+}
+fieldset {
+    background-color: white;
+    margin: 0 50px;
+}
+.hidden_p {
+    height: 20px;
+}
+img {
+    height: 100px;
+    display: block;
+    padding: 10px 0;
+    cursor: grab;
+    margin: auto;
+}
+p {
+    width: 250px;
+    font-weight: bold;
+    text-align: justify;
+}
+.invisible {
+    display: none;
+}
+.drag-over {
+    border: 2px dashed orangered;
+}
+
+body {
+    overflow: auto;
+}
+#try_again {
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}

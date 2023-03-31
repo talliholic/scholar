@@ -1,0 +1,15 @@
+button {
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 3px;
+}
+fieldset {
+    background-color: azure;
+}
+input {
+    margin: 5px 0;
+}
+input[type=submit] {
+    float:right;
+}

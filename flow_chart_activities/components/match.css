@@ -1,0 +1,12 @@
+fieldset {
+    background-color: white;
+}
+.description, .image {
+    cursor: pointer;
+}
+.clicked {
+    border: 2px solid red;
+}
+.selected {
+    background-color: bisque;
+}

@@ -1,0 +1,21 @@
+.empty, .fill, .hovered {
+    height: 40px;
+    width: 200px;
+    background-color: white;
+}
+
+.draggable {
+    cursor: grab;
+}
+
+.invisible {
+    display: none;
+}
+
+.drag {
+  color:red
+}
+
+body {
+    overflow: auto;
+}

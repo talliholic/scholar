@@ -1,0 +1,4 @@
+SCHOLAR UPDATES
+1. Check alert when deleting classroom. Number of students deleted incorrect.
+2. Check update student alert. It says "choose another username" but then updates.
+3. In Personal best and latest study guide name disappears when deleted by a teacher

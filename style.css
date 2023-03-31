@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+  font-family: 'Roboto Mono', monospace;
+}
+aside {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 5px 0;
+  margin-top: 10px;
+  gap: 10px;
+  font-style: italic;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+.banner {
+  text-align: center;
+  background-color: #191970;
+  color: white;
+}
+.best_results {
+  margin-bottom:10px;
+  font-size:12px;
+}
+.big-width {
+  width: 500px;
+}
+.block {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+body {
+  background-color: #B0C4DE;
+}
+details{
+  padding:3px;
+  background-color: #E8E8E8;
+}
+header {
+  padding-bottom: 5px;
+  margin-bottom: 22px;
+}
+.hidden {
+  display: none;
+}
+.none {
+  visibility: hidden;
+}
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  width: 300px;
+  padding: 5px;
+  border: 1px solid black;
+}
+.center-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center-nomargin-title {
+  text-align: center;
+  margin: 0;
+  background-color: #191970;
+  color: white;
+}
+.center-img {
+  display: block;
+  margin: auto;
+}
+.center-data td, .center-data th{
+  text-align: center;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 3px;
+}
+.check {
+  font-style: bold;
+  color: green;
+  border: 2px solid green;
+  padding: 0 3px;
+}
+.column {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 7px;
+}
+.cross {
+  font-style: bold;
+  color: red;
+  height: 20px;
+  border: 2px solid red;
+  padding-bottom: 5px;
+}
+.delete-button{
+  background-color: white;
+  color:red;
+}
+legend {
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+fieldset button, fieldset a {
+  text-decoration: none;
+  background-color: #6495ED;
+  color: white;
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+form h1 {
+  background-color: #E8E8E8;
+}
+.grey {
+  background-color: #E8E8E8;
+}
+input[type=submit] {
+  background-color: lightgreen;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 3px;
+  border: 1px solid black;
+}
+.item {
+  margin: 30px 0;
+  border: 1px dotted black;
+  padding-bottom: 5px; 
+  background-color: white;
+}
+legend {
+  font-weight: bold;
+  width: 165px;
+  text-align: center
+}
+.lightblue {
+  background-color: lightskyblue;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+main {
+  display: flex;
+  flex-flow: column;
+  gap: 0 20px;
+}
+.mediumblue {
+  background-color:#6495ED;
+}
+.medium-img {
+  height: 150px;
+  border-radius: 15%;
+}
+.mid-width {
+  width: 300px;
+}
+nav a {
+  background-color: lightgreen;
+  padding: 3px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+ol {
+  background-color: white;
+}
+.option {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 7px 0;
+  font-size: 16px;
+}
+#play-again-button {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+.question {
+  background-color: #F1F1F1;
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.radio {
+  border: 0px;
+  width: 18px;
+  height: 2em;
+  margin: 0 10px;
+}
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  row-gap: 7px; 
+}
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px 0;
+}
+.small-card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-color: #E8E8E8;
+}
+.small-field{
+  width: 150px;
+}
+.small-img {
+  height: 100px;
+}
+#submit-button {
+  font-size: 20px;
+}
+td a, aside a, .lightlink {
+  background-color: #6495ED;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2px;
+  border-radius: 15%;
+}
+td a:hover {
+  text-decoration: underline;
+}
+.text-option {
+  font-size: 17px;
+}
+/* THIS ALSO APPLIES TO IMAGES */
+.word {
+  margin-bottom: 5px;
+}
